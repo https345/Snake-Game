@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+.Title{
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+.font{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.scores{
+    color: white;
+    display: flex;
+    width: 35%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50% , 0%);
+    margin-bottom: 1%;    
+    justify-content: space-between;    
+}
+.scores>*{
+    font-size: 2vw;
+}
+
+.gameBoard{
+    background-color: #262626;
+    width: 35%;
+    aspect-ratio: 1/1;
+    display: grid;
+    grid-template-columns: repeat(30 , 1fr);
+    grid-template-rows: repeat(30 , 1fr);
+    position: relative;
+    left: 50%;
+    transform: translate(-50% , 0%);
+}
+.food{
+    background-color: blue;
+}
+.head{
+    background-color: red;
+}
+.footer{
+    margin: 1%;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
